@@ -3,13 +3,9 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp3.0</TargetFramework>
-
-    <!-- https://stackoverflow.com/questions/58994946/how-to-build-app-without-app-runtimeconfig-json -->
     <PublishTrimmed>true</PublishTrimmed>
     <PublishReadyToRun>true</PublishReadyToRun>
     <PublishSingleFile>true</PublishSingleFile>
-    <RuntimeIdentifier>win-x64</RuntimeIdentifier>
-
     <LangVersion>latest</LangVersion>
     <ApplicationIcon />
     <StartupObject />

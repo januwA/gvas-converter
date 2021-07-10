@@ -15,5 +15,6 @@ namespace GvasFormat.Serialization.UETypes
         }
 
         public Guid Value;
-    }
+
+  }
 }
