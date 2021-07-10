@@ -1,5 +1,10 @@
 # Unreal Engine 4 save game converter
-This library and simple console tool for it will convert the generic UE4 save game file into a json for easier analysis.
+
+将 ++UE4+Release-4.18 GVAS 二进制格式的文件，解析为json，以便于分析
+
+```
+>GvasConverter.exe "SaveData2.sav"
+```
 
 Bakc convertion is theoretically possible, but is not implemented.
 
